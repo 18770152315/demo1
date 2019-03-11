@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="test" value="123"/>
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="seleniumday5.seleniumday5.j1229Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="main"/>
+          <include name="beforeSuite"/>
+          <include name="f"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- seleniumday5.seleniumday5.j1229Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
